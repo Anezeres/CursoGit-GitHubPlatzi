@@ -1,0 +1,17 @@
+En un entorno profesional normalmente se bloquea la rama master
+nadie puede hacer merge a master, nada mas pq si,la idea es que
+en el proceso halla un callreview
+
+1) Rama master -> Es el producto terminado, es que se subirá a produccion
+
+2) Rama Development -> Es como una rama para realizar pruebas como si fuera la rama master pero sin serlo
+
+3) Rama de elemento -> esta se envia a Development 
+
+    Si quiero enviar mis modificaciones, lo hago con merge, pero normalmente en un entorno de desarrollo
+    no se hace directamente, si no que se hace algo llamado Pull Requests
+
+    Pull Requests-> permite que otras personas del equipo puedan ver las modificaciones que hiciste 
+    y si a todos les gusta y lo aprueban, y una vez aprovado se ejecuta automaticamente el merge
+
+    este PR, solo se puede realizar en github, no en git

@@ -1,0 +1,14 @@
+git checkout (rama)
+git branch
+
+Comandos para ramas:
+
+    git show-branch
+    git show-branch --all
+    gitk -> te muestra en un software todo el tema de branches
+
+    Para subir una rama de github
+
+        git checkout (nombre de la rama que quieres subir a github) 
+
+        git push origin (nombre de la rama que quieres subir a github)

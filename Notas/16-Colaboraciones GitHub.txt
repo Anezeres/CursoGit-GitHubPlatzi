@@ -1,0 +1,18 @@
+git clone (url del repositorio)
+
+digamos que hace sus cosas y quiere hacer
+git commit -am "Mensaje"
+
+git push, tal
+
+y al jefe, dueño del repositorio se le olvidó darle acceso
+
+setting del repositorio -> Collaborators -> añado por medio del nickname o el gmail
+
+ahora si la otra persona puede hacer
+git push origin master
+
+y si otra persona quiere obtener eso localmente debe hacer:
+
+git pull origin master
+git pull origin (Cualquier rama del repositorio)
