@@ -1,0 +1,30 @@
+cuando se hace un merge, se unen las cabezeras a una rama final 
+
+si yo creo una nueva rama y realizo los cambios que yo quiera
+
+si hago git checkout, puedo perder el avance de mis archivos 
+hay que agregar siempre los cambios a la rama antes de hacer cualquier checkout
+
+normalmente los merge se realizan a la rama master para que quede como principal 
+
+al realizar merger's es posible que se creen conflictos que se deban solucionar
+
+lo que hay que hacer habitualmente es:
+
+    git checkout master -> cambiamos a la rama master
+
+    git branch -> muestra las ramas presentes en el proyecto
+
+    git merge (nombre de la rama) -> un merge es un commit a la rama a la que le haces la fusion, en este caso la rama master
+
+        aparecerá VIN, le colocaremos un mensaje y daremos en comando 
+
+        Esc + (mayus o shit) + z + z
+
+    cuando yo haga 
+
+    git log -> mostrará los commits hechos en la otra rama y los commits de la rama master
+        ademas mostrará en vez de autor, mostrará que es un commit de tipo merge
+
+
+mirar la imagen 03-Merge.png, para que todo quede mas claro

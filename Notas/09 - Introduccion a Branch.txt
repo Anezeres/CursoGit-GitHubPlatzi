@@ -1,0 +1,31 @@
+En un proyecto, por defecto siempre nos encontraremos en la rama master
+
+cuando un crea una rama, lo que hace basicamente es crear una copia del ultimo commit 
+y en la nueva rama, no afectará a la rama original, amenos que se haga el proceso de merge 
+
+existe un commit distinto
+
+git commit -am "Mensaje" -> esto hace automaticamente el git add de los cambios, solo funciona con los archivos que yo halla hecho git add previamente 
+
+Con el git show, puedo saber donde está el HEAD, o la version mas reciente 
+
+para crear una nueva rama:
+
+    git branch (nombre de la nueva rama)
+
+y si yo le doy:
+
+git show -> ahora me mostrará donde está en HEAD, y mostrará que ahora el HEAD está en la nueva rama y en la rama master 
+osea el ultimo commit estaria pegado a dos ramas distintas 
+
+como me muevo a la nueva rama?
+
+    git checkout (nombre de la nueva rama)
+
+recordando que git show -> Muestra los cambios realizado y ademas Muestra donde está el HEAD
+
+git log -> Historial de commits
+
+HEAD -> es un indicador de cual version de commit estoy viendo en los ultimos archivos
+
+todo esto escrito se ve reflejado en la imagen 02-Branch.png

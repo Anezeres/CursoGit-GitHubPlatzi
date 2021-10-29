@@ -1,0 +1,9 @@
+Cuando se modifican las mismas lineas se generan conflictos
+
+para que se complete un merger debe existir un commit, por lo que si hay conflictos no se genera el merge
+
+aparecen 2 lineas extrañas y hay que quedarse solo con una de las 2.
+
+con mi experiencia, hay que entender bien el codigo para saber que se debe borrar y que no
+
+en el git bach aparecerá -> (master | MERGING) y desaparecerá cuando resolvamos los conflictos y se haga el commit

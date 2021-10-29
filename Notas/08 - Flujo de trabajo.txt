@@ -1,0 +1,66 @@
+1) tenemos un directorio de trabajo personal 
+    en la consola vamos y escribimos 
+
+    git init
+
+    y al momento de hacerlo aparecen dos entidades nuevas
+
+    * Preparacion o Staging
+    * Repositorio local
+
+2) Cuando quieres agregar un archivo de tu carpeta al repositorio 
+    Lo primero que haces ponerlo en el area de preparacion con 
+
+    git add . -> esto le permite a git hacer un rastreo de los cambios hecho en un archivo 
+
+    Este es un lugar temporal 
+
+    luego envias esos cambios al repositorio con
+    
+    git commit -m "Mensaje" -> todo lo que esté en staging lo manda al repositorio definitivo 
+
+    y eso es todo lo que hay que hacer para hacer una historia entera del proyecto
+
+
+3) Que pasa cuando trabajas con otras personas y tienes un equipo de trabajo
+
+    cuando se trabaja en equipo se necesita un servidor remoto 
+
+    es un lugar donde tienes el mismo repositorio donde estas trabajando, pero todo el mundo el manda datos
+    trabajando el su area local, y envia sus avances para que el resto del equipo los pueda ver
+    repositorio remotos como:
+
+    GitHub
+    GitLab
+
+4) que tenemos que hacer si queremos extraer informacion de un servidor remoto
+    
+    en vez de hacer git init, hacemos:
+
+    git clone (url) -> con la url se trae los archivos a 2 lugares,
+
+    1) una copia de la rama master
+    2) crea una base de datos con todos los cambios historicos en mi repositorio local 
+
+    y sigo haciendo lo mismo de siempre:
+
+    hago mis cambios:
+
+        git add .
+        git commit -m "Mensaje"
+
+    pero ahora si los quiero subir al servidor la ultima version se agrega un nuevo comando:
+
+        git push -> envia mis cambios de la rama que estoy usando al servidor remoto
+
+5) si alguien cambió algo:
+
+    git fetch -> me trae el cambio al repositorio local, pero no me lo copia en mis archivos 
+
+    para que copie los archivos debo fucionar con:
+
+    git merge 
+
+    pero se puede ignorar todo ese proceso realizando un solo comando llamado:
+
+    git pull -> jala la base datos, el repositorio local y copia el directorio
