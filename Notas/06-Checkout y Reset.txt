@@ -10,3 +10,20 @@ git reset -> nos permite volver a una version anterior
     git reset (Codigo del commit) f250e4e590c768f6b19c10318e92b97e5bec59c2 --soft -> absotulamente todo vuelve al estado del commit seleccionado se queda guardado lo que esté en Staging
 
     hay que tener cuidado con el --hard, pq si se realiza el cambio sin antes hacer un commit, se pierde la informacion
+    y ademas el reset, es muy muy peligroso porque ademas de cambiar de version, tambien borra los commit hechos despues de la version escogida y se pierde el proceso
+    es una forma de volver al pasado de una forma agresiva
+
+git log --stat -> se puede ver los cambios especificos en cada commit
+
+cuando los cambios son demasiados, el contenido se sale de la pantalla, con la flecha arriba y abajo, se puede mover y con q, se sale para agregar otro comando
+q de quit
+
+
+git checkout (Codigo del commit)f250e4e590c768f6b19c10318e92b97e5bec59c2 (Archivo que quiero de regreso) 00-Historia.txt -> Si quiero ver versiones anteriores de un archivo
+
+    ahora, yo realicé un cambio para ver una version, si acto seguido yo realizo un commit, borraré la informacion de los commits que se encuentran despues del commit seleccionado en el checkout 
+
+    git checkout master -> volvemos a la version antes de realizar el commit, sin borrar nada
+
+    al yo realizar un checkout sobre un archivo los demas no se modifican
+
