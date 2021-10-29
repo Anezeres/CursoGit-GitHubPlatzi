@@ -23,6 +23,21 @@ git show (archivo) -> muestra la informacion
     -> \ No newline at end of file, significa que se acabó el archivo, que no tiene lineas adicionales
 
 
+Si yo hago commit sin agregar el mensaje
+git commit, me aparece la consola de una forma muy extraña, lo que se debe hacer es
+Escribo el mensaje y le doy Esc + (Mayus o Shit) + z + z
+
+(Tuve un error a la hora de escribir el mensaje de commit, no supe aun como cambiar el mensaje)
+el error anterior se arrgla con git 
+commit --amend -> arriba te aparece el mensaje del commit erroneo y cuando empiezas a escribir el nuevo mensaje, haces el comando para salir
+Esc + (Mayus o Shit) + z + z
+
+git log -> Muestra todos los commits
+git log --oneline -> Muestra todos los commits pero mas corta (Honestamente prefiero esta)
+
+para comparar versiones se hacer
+
+git diff 8d86c2aabf26ba585c99f9a0cdf973de9ff32e47(Ultimo comid) (espacio) (commit que quiero comparar) 05b0e3426e51fe3441cff7e692b345fb0f3198ad
 
 
 

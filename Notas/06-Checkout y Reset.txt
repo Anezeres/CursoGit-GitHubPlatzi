@@ -1,0 +1,12 @@
+git log -> Muestra los commit que hemos realizado hasta el momento
+
+git reset -> nos permite volver a una version anterior
+
+    existen 2 tipos de reset , duro y suave 
+
+    se recuerda que el Staging es ese espacio despues de realizar /git add .
+
+    git reset (Codigo del commit) f250e4e590c768f6b19c10318e92b97e5bec59c2 --hard -> absotulamente todo vuelve al estado del commit seleccionado incluso lo que esté en Staging
+    git reset (Codigo del commit) f250e4e590c768f6b19c10318e92b97e5bec59c2 --soft -> absotulamente todo vuelve al estado del commit seleccionado se queda guardado lo que esté en Staging
+
+    hay que tener cuidado con el --hard, pq si se realiza el cambio sin antes hacer un commit, se pierde la informacion

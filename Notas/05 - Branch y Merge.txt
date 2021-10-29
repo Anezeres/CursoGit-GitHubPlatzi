@@ -1,0 +1,19 @@
+Por defecto siempre nos encontramos en la rama master, cada commit crea versiones
+
+master -> v1---v2---v3---v4----------v(Actual)
+
+pero si quieres hacer experimentos de la v3, y creamos una rama experimental
+
+experimental -> (master(v3))v1 ---v2---v3 
+
+y la rama experimental, es completamente diferente a la rama master, en contenido y en codigo 
+
+y digamos que en v(Actual) hay un bug, pues se deberia crear una rama para resolver ese bug y creas otra rama
+
+HotFix -> (master(Actual))v1 ---v2---v3 
+
+una vez realizado la solucion de bug, la idea es combinar la rama HotFix y la rama master, eso se le conocer como un Merge
+
+Merge -> unir los cambios de una rama con otra
+
+ver en la carpeta Imagenes-Merge

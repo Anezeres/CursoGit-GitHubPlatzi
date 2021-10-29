@@ -1,0 +1,20 @@
+Staging es el espacio de memoria donde se van los archivos cuando haces 
+git add .
+
+y Repositorio es donde se crea un espacio de memoria de los archivos cuando haces 
+git commit -m "Mensaje"
+
+si aun no le das add ., el archivo se encuentra sin rastrear 
+o untracked, una vez haces add ., el archivo se encuentra rastreado o tracked
+y hace parte de Staging 
+
+Es posible tener archivos modificados que no esten en Staging, la unica forma de estar en Staging
+es dando git add .
+
+Staging es un area de preparacion, una vez haces el commit, aparece el indicador del commit y ahí
+todo el mundo puede ver los cambios que se hicieron 
+
+con
+git checkout -> se puede cambiar de vesion o cada commit, dependiendo de los cambios que se le hagan al comando checkout
+
+la rama master, es la que está por defecto, si quieres hacer experimentos con tus archivos, tienes la posibilidad de crear nuevas ramas
