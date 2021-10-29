@@ -1,0 +1,21 @@
+Crear Nuevo repositorio 
+
+Te preguntará si quieres inicializar el repositorio con un README.txt -> Es una muy buena practica 
+
+Raw -> Muestra el codigo plano 
+Blame -> Quien tiene la culpa de las cosas que se han hecho
+History -> muestra la historia del archivos es como un log en el repositorio
+
+para subir nuestras cosas
+clone or download -> HTTPS y copiamos la url
+
+Le tenemos que decir a git que vamos a agregar un origen remoto de nuestros archivos 
+
+    git remote add origin (url que copiamos) -> pareciera que no sucedió nada, pero si escribimos 
+
+    git remote -> origin
+
+    git remote -v -> nos dice que tenemos un origin para hacer fetch y para hacer pull
+
+
+
