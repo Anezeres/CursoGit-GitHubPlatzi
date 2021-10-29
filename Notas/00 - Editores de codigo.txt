@@ -1,0 +1,39 @@
+Lo unico que se puede modificar en git y gitHub, es texto plano,
+No archivos interpretados del codigo binario
+
+Se puede hacer, pero no será tan preciso en los detalles
+
+en el gitBash
+pwd = muestra en que carpeta te encuentras
+
+para navegar, se utiliza el cd o change directory
+
+cd / -> estarias en el home
+
+ls = Listar los archivos en la carpeta donde me encuentro
+
+---------------
+ls -al -> el al es un argumento, el espacio significa que el comando principal es ls, 
+me sirve para mostrar todos los archivos, incluso los ocultos, y los muestre en una lista
+
+ls -l , no me muestra los ocultos
+ls -a, muestra el grupo de archivos pero no en una lista
+ctrl + l -> Limpia la consola
+
+cd .. -> Para devolverse en una carpeta, aunque no me interesa mucho, puesto que normalmente haria
+git bash here
+
+mkdir (nombre carpeta) -> Para crear carpetas
+
+touch vacio.txt -> Para crear un archivo de texto
+
+--------------C
+Cuando hacemos el ls -al, y sale el . y el .., representan la carpeta actual y la anterior
+
+cat vacio.txt -> para ver la informacion del archivo de texto
+history -> muestra todos los comandos que has hecho y te mostrará una serie de numeros con los comandos
+!(numero) -> Repite el comando
+
+rm vacio.txt-> Se utiliza para eliminar archivos
+rm --help -> Muestra todo un tutorial sobre el comando en particular
+code -> Para abrir rapidamente el Visual Studio Code 
