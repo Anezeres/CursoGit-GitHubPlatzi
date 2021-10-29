@@ -8,3 +8,6 @@ Fork -> tenedor, hacer una copia del estado actual de un proyecto y clonarlo com
 git remote add upstream (url)
 
 ver imagen 04-Fork.png para entender el tema de copiar repositorio y contribuir a un proyecto
+
+github pages -> Leer con mas detenimiento para poder realizar una pagina
+en setting se puede leer eso de pages

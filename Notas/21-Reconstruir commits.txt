@@ -1,0 +1,11 @@
+Si hago un commit que no debia, pq se te olvidó algo o yo que sé
+
+hago el cambio que necesitaba en el commit
+
+lo agrego con:
+
+    git add .
+
+y para arreglar el cambio
+
+git commit --amend -> amend en ingles es remendar, y lo que hará será pegar los cambios que hice al commit anterior

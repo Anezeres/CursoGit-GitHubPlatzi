@@ -1,0 +1,8 @@
+git reflog -> con git reflog se ve absolutamente todo
+
+escoges la cabecera donde todo estaba correcto
+
+git reset --SOFT (codigo) -> te mantiene las cosas en staigin
+git reset --HARD (codigo) -> Te borrar todoooo, osea irás al cambio y eliminará lo que esté en el staigin
+
+git reflog todo lo sabe y todo lo ve, mantiene la historia de absolutamente todo

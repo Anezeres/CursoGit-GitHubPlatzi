@@ -1,0 +1,25 @@
+Cuando estoy en la rama master y quiero realizar unas modificaciones, y quiero irme a otra rama 
+
+el problema es que aun no quiero realizar comid a esa modificaciones, pero las quiero guardar en algun sitio 
+
+eso se hace con git stash
+
+git stash -> con esto tendré los cambios que hice en un lugar temporal 
+git stash list -> con esto tendré los cambios que hice en un lugar temporal 
+
+ahora si puedo realizar el cambio de rama sin perder la info y sin realizar checkout 
+
+git branch (rama a la que quiero cambiar)
+
+ahora quiero volver a mi rama y recuperar mis cambios
+
+git stash pop -> y regresas tus cambios hechos sin commit
+
+ahora, si yo realicé cambios y los quiero guardar en una rama
+
+git stash branch (nombre rama)
+
+digamos que cometo mucho errores
+
+git stash -> me devuelve al ultimo commit
+git stash drop -> borro el stash creado y me quedo en el ultimo commit 

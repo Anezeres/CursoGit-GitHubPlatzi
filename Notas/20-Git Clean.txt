@@ -1,0 +1,9 @@
+git clean -> git le lanza un error queriendo confirmar cuales archivos quiero borrar
+
+como sé que archivos quiero borrar?
+
+git clean --dry-run -> simula lo que se va a borrar sin borrarlo
+
+git clean -f -> borra los archivos
+
+-> git al realizar el git clean, te dejará las carpetas, pq a git no le importan las carpetas, le importan solamente los archivos
