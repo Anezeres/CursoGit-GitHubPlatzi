@@ -9,3 +9,27 @@ cached -> significa que está en memoria ram, que aun no se encuentra guardado e
 una vez hecho el add, los archivos se encuentran en un limbo, es necesario realizar un commit
 
 git commit -m "Mensaje"
+
+----------
+
+Al chico del video le apareció un error por no tener metida su cuenta de git
+
+git config -> Muestra una ayuda de como funciona
+git config --list -> Muestra la configuracion por defecto de git 
+git config --list --show-origin -> Muestra donde estan las configuraciones guardadas
+
+git config --global -> con esto vamos a cambiar todos los usuarios globales 
+
+- -> significa que vas a usar un acronimo con "al"
+-- -> significa que vas a hacer uso de una palabra "global"
+
+//Para configurar tu git
+
+git config --global user.name "Tu nombre"
+git config --global user.email "Tu correo"
+git config --list
+
+#Resulta que cometí un error y olvidé poner mi edad en el archivo de Historia.txt
+cat Historia.txt -> muestra el contenido del archivo pero no se puede modificar
+
+code Historia.txt -> me abre automaticamente el archivo en el VSC

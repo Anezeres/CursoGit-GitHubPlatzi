@@ -1,5 +1,6 @@
 Este es un documento
 
-Mi nombre es Julian Alexander Alvarez Payares
+Mi nombre es Julian Alexander Alvarez Payares y tengo 19 años
+Nací en Bogotá
 
 y estoy realizando un curso de Git y GitHub
