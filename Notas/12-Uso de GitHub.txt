@@ -17,5 +17,26 @@ Le tenemos que decir a git que vamos a agregar un origen remoto de nuestros arch
 
     git remote -v -> nos dice que tenemos un origin para hacer fetch y para hacer pull
 
+    y ahora para subir todo
+    
+    git push origin master
+
+    -> si te sale un error lo que debes hacer es jalar la informacion que está en el repositorio virtual con:
+
+    git pull origin master -> esto es lo que se deberia hacer si vas a jalar el repositorio de alguien mas
+
+    git pull origin master --allow-unrelated-histories -> esto resuelve un problema relacionado con las historias, por si le sucede a alguien
+
+    si aparecieron errores e hiciste todo lo anterior, acto seguido, ya puedes realizar 
+    git push origin master
+
+si en el repositorio de GitHub queremos editar, se puede hacer, haces los cambios y ademas puedes realizar commits
+
+pero... esos cambios realizados en el entorno de GitHub, no apareceran en mi repositorio local, para que se vean los cambios debes realizar un pull
+    git push origin master
+
+ahora mostrará algo como
+
+(HEAD -> master, origin/master)
 
 

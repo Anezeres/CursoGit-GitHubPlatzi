@@ -1,0 +1,48 @@
+En mi entorno local creo una llave privada y una llave publica
+
+una vez la creo, le envio la llave publica a GitHub, para este repositorio quiero que uses esta llave publica de mi llave privada
+
+GitHub me va a enviar una llave publica automaticamente
+
+las llaves SSH, no son por repositorio o por proyecto, sino por persona, vamos a crear una llaves exclusivas
+
+para crear una llave se usa el siguiente comando.
+
+    ssh-keygen -t rsa -b 4096 -C "youremail@example.com"
+
+ahora en el home me creó una llave publica y privada
+
+Para ver que la conexion es correcta se debe hacer y que el servidor de llaves esté prendido
+
+eval $(ssh-agent -s) o si no funciona este -> eval `ssh-agent -s`
+
+~ -> alt + 126
+
+pwd 
+
+hacemos 
+
+cd ~
+
+y luego hacemos 
+
+ssh-add ~/.ssh/id_rsa
+
+-------------------
+conexion a GitHub con SSH
+
+si tienes 3 computadoras, debes tener 3 llaves, cada personas debe tener una llave unica
+
+ahora vamos a GitHub -> opciones ->  SSH and GPG -> New SSH key, colocamos nombre y la key 
+
+vamos al repositorio de GitHub
+
+code -> SSH y copiamos lo que diga ahí
+
+vamos a nuestro repositorio local
+
+daremos
+
+    git remote -v
+
+    git remote set-url origin 
