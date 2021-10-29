@@ -5,3 +5,4 @@ Nací en Bogotá
 
 y estoy realizando un curso de Git y GitHub
 Es estudiante de la Universidad del Valle
+y aun no tiene trabajo
