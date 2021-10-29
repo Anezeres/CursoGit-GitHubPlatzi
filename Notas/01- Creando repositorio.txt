@@ -33,3 +33,7 @@ git config --list
 cat Historia.txt -> muestra el contenido del archivo pero no se puede modificar
 
 code Historia.txt -> me abre automaticamente el archivo en el VSC
+
+git log (archivo) -> Muestra los commits realizados sobre el mismo
+
+HEAD -> master , significa que es la version mas resiente

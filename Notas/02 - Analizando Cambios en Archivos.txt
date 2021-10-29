@@ -1,0 +1,28 @@
+git show (archivo) -> muestra la informacion 
+
+    -Cual es el ultimo commit -> f250e4e590c768f6b19c10318e92b97e5bec59c2 
+
+    -(HEAD -> master) -> cabezera de la rama master, osea, que estoy en la version mas reciente 
+
+    -muestra el mensaje que le puse al commit 
+
+        mensaje = Añadí informacion a la clase 01, y ademas le añadí mi edad al archivo Historia
+
+    diff -> agarrar la version anterior con la version nueva y mostrarme la diferencia 
+
+    -> indicador dentro de la base de datos de git = index 8349e63..0acf699 100644
+
+    -> --- a/00- Historia.txt y +++ b/00- Historia.txt, esto significa que hay una version a y una version b
+
+    -> @@ -1,5 +1,6 @@, esto me indica cuantos bytes cambiaron
+
+    -> Las partes que no se modificaron en absoluto se muestran en blanco
+
+    -> en rojo me muestra le version anterior y el verde el cambio
+
+    -> \ No newline at end of file, significa que se acabó el archivo, que no tiene lineas adicionales
+
+
+
+
+
